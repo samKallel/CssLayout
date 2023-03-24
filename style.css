@@ -60,7 +60,7 @@ section img{
 	width: 45%;
 	text-align: start;
 	font-weight: lighter;
-	margin-bottom: 20%;
+	/*margin-bottom: 10%;*/
 }
 
 .part1 h1 {
@@ -113,4 +113,75 @@ section img{
 
 .pays:hover {
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+.part2{
+	display: flex;
+	justify-content: space-between;
+	margin: 20% 10%;
+
+}
+.patient{
+	background: #00b39b;
+    color: #fff;
+	padding: 10px;
+	border-radius: 3%;
+	padding: 3%;
+	align-items: center;
+	margin:1%;
+	   
+}
+.doctor{
+	background:#3d83df ;
+    color: #fff;
+	border-radius: 3%;
+	padding: 3%;
+	align-items: center;
+	margin:1%;
+   
+}
+.clinic{
+	background:#1a2a41 ;
+    color: #fff;
+    border-radius: 3%;
+	padding: 3%;
+	align-items: center;
+	margin:1%;
+}
+
+.part2 div h1,h2 {
+	align-content: center;
+	margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px
+}
+.st_select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0 3.5em 0 1.5em;
+    height: 40px;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+	outline: 0;
+	text-decoration:underline;
+}
+.st_select:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -.5em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .2em;
+    line-height: 1em;
+    background: no-repeat url(/icons/arrow-icon@2x.png) 50% 50%;
+    background-size: 8px;
+    pointer-events: none
+}
+	
+.st_select select:hover{
+	cursor:pointer;
 }
